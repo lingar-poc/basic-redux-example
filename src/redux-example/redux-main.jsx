@@ -1,4 +1,5 @@
 import React from 'react';
+import {ProductsDisplayRedux} from "./products-feature";
 
 export function ReduxMainView(){
 
@@ -9,7 +10,8 @@ export function ReduxMainView(){
             Done by the basics from here</a>
             <p>You will see here a simple example of how two components, that using and updating the same data from two separated places.</p>
             <p>You have the products list that show different prices each 3 seconds, and the "most expensive" that show
-            the current most expensive product. </p>
+            the current most expensive product2. </p>
+            <ProductsDisplayRedux/>
         </div>
     )
 
